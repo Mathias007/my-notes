@@ -28,26 +28,10 @@
             </div>
         </div>
         <div class="note-area">
-            <div class="note">
-                <div class="note-header">
-                    <h3 class="note-title">Notatka #1</h3>
-                    <button class="delete-note">
-                        <i class="fas fa-times icon"></i>
-                    </button>
-                </div>
-                <div class="note-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Neque, corrupti quidem architecto pariatur dignissimos
-                    sapiente, doloremque asperiores ab eligendi culpa, laborum
-                    recusandae! Ipsa enim natus nemo ullam minus eligendi
-                    maiores?
-                </div>
-            </div>
-
             <div class="note-panel">
                 <h2>Dodaj notatkę</h2>
                 <label for="category">Wybierz kategorię</label>
-                <select id="category">
+                <select id="category" onchange="selectValue()">
                     <option value="0" disabled selected
                         >- wybierz kategorię -</option
                     >
